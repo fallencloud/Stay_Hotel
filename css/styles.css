@@ -87,8 +87,16 @@ p {
 }
 
 .bg-primary {
-  background: #0d0d0d;
-  color: #d9a566;
+  background: #d9a566;
+  color: #0d0d0d;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.clr {
+  clear: both;
 }
 
 /* Navbar */
@@ -172,6 +180,59 @@ p {
   overflow: hidden;
 }
 
+#home-info .info-content span.fancy-sm {
+  font-size: 30px;
+}
+
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Amenities */
+#amenities .left,
+#amenities .right {
+  float: left;
+  width: 50%;
+}
+
+#amenities .card {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+#amenities .left {
+  padding: 20px;
+  line-height: 1.2ems;
+}
+
+#amenities .left h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+#amenities .left h2 span.fancy-sm {
+  font-size: 60px;
+}
+#amenities .left p {
+  padding: 10px 0;
+}
+#amenities .left p.lead {
+  color: gray;
+  margin: 10px 0;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #0d0d0d;
+  border-top: #332f2e 1px solid;
+  color: #fff;
+  padding: 20px;
+}
+
+.fancy-sm {
+  font-family: 'Dancing Script', cursive;
 }

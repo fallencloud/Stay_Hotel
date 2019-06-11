@@ -8,5 +8,7 @@ In this project, I'm building a template for a fake hotel called "Stay" using HT
 
 1. Create hierarchy
 2. Create NavBar
-3. Create Jumbotron
-4. Added Info section
+3. Index: Create Jumbotron
+4. Index: Added Info section
+5. Index: Added Amenities
+6. Index: Added Footer
