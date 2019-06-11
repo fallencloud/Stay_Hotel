@@ -8,3 +8,5 @@ In this project, I'm building a template for a fake hotel called "Stay" using HT
 
 1. Create hierarchy
 2. Create NavBar
+3. Create Jumbotron
+4. Added Info section

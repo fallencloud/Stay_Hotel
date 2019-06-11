@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
 /*Mini reset */
 * {
   margin: 0;
@@ -37,6 +39,58 @@ p {
   padding: 0 20px;
 }
 
+.text-primary {
+  color: #d9a566;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #0d0d0d;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #d9a566;
+  color: #0d0d0d;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.btn-outline:hover {
+  background: #d9a566;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #0d0d0d;
+}
+
+.bg-dark {
+  background: #0d0d0d;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #0d0d0d;
+}
+
+.bg-primary {
+  background: #0d0d0d;
+  color: #d9a566;
+}
+
 /* Navbar */
 #navbar {
   background: #0d0d0d;
@@ -73,4 +127,51 @@ p {
 #navbar ul li a.current {
   background: #332f2e;
   color: #d9a566;
+}
+
+/* Jumbotron */
+#jumbotron {
+  background: url('../img/jumbotron.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+
+#jumbotron .jumbotron-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#jumbotron .jumbotron-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#jumbotron .jumbotron-content h1.fancy {
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  font-size: 70px;
+}
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
