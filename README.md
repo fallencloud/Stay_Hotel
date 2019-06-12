@@ -14,5 +14,7 @@ In this project, I'm building a template for a fake hotel called "Stay" using HT
 6. Index: Added Footer
 7. About: Created Jumbotron
 8. About: Added Romms
+9. Contact: Added Contact Form
+10. Contact Added Contact "cards"
 
 #### \* Please note that the current iteration of the project is not supposed to be responsive.

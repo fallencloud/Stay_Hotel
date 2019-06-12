@@ -108,6 +108,10 @@ p {
 .clr {
   clear: both;
 }
+
+.py-3 {
+  padding: 20px;
+}
 /* Navbar */
 #navbar {
   background: #0d0d0d;
@@ -313,6 +317,48 @@ p {
 
 .night {
   font-size: 25px;
+}
+
+/* Contact Form */
+#contact-form h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px lightgray solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #d9a566;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
 }
 /* Footer */
 #main-footer {
