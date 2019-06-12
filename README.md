@@ -4,6 +4,8 @@
 
 In this project, I'm building a template for a fake hotel called "Stay" using HTML and CSS only.
 
+View live: https://fallencloud.github.io/Stay_Hotel/
+
 ### Tasks
 
 1. Create hierarchy
