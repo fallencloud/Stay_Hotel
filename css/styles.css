@@ -286,6 +286,8 @@ p {
 .info-right {
   margin-left: -40px;
   margin-right: -40px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .info-left img,
