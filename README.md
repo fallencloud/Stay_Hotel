@@ -18,5 +18,6 @@ View live: https://fallencloud.github.io/Stay_Hotel/
 8. About: Added Romms
 9. Contact: Added Contact Form
 10. Contact Added Contact "cards"
+11. Added responsive styling to index page
 
 #### \* Please note that the current iteration of the project is not supposed to be responsive.
