@@ -283,6 +283,11 @@ p {
   margin: 1% 0;
 }
 
+.info-right {
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
 .info-left img,
 .info-right img {
   width: 38.5%;
