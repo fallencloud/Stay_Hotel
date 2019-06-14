@@ -42,3 +42,55 @@
   float: none;
   width: 100%;
 }
+
+/******************
+Contact Page
+******************/
+
+#jumbotron-rooms {
+  height: 100%;
+}
+
+#jumbotron-rooms .jumbotron-rooms-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.info-left img,
+.info-right img {
+  display: none;
+}
+
+#about-info .room-info {
+  width: 100%;
+}
+
+.price-info {
+  font-size: 20px;
+}
+
+.p {
+  font-size: 25px;
+}
+
+.price {
+  font-size: 35px;
+  padding-bottom: 2%;
+}
+
+.room-info ul {
+  margin-left: 15px;
+}
+
+.night {
+  font-size: 20px;
+}
+
+/******************
+Contact Form
+*******************/
+#contact-info .box {
+  float: none;
+  width: 100%;
+  border-bottom: lightgray dotted 1px;
+}
